@@ -42,3 +42,12 @@
   width: 100%;
   margin-top: 15px;
 }
+
+
+.custom-truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
