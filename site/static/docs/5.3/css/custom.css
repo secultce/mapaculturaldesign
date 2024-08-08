@@ -1,3 +1,7 @@
+:root {
+  --color-text-grey-1: #1E1E1E;
+}
+
 .card-panel .btn-group-icon span {
   font-weight: bold;
 }
@@ -41,4 +45,22 @@
 .card-panel .btn {
   width: 100%;
   margin-top: 15px;
+}
+
+.card.intro-card > .row > .side-image {
+  background-size: cover !important;
+  background: linear-gradient(#00000066, #00000066), url('/docs/5.3/assets/img/examples/intro-home.jpeg');
+}
+
+.card.intro-card > .row > .side-image .icon-bg-dark {
+  background-color: var(--color-text-grey-1);
+  border-radius: 32px;
+}
+
+.card.intro-card > .row > .side-image .icon-bg-dark i {
+  margin: 10px;
+}
+
+.card.intro-card > .row > .side-text > .card-body > a > small {
+  color: var(--color-text-grey-1);
 }
